@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".examProjectUpdate">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#151F55">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100px"
+                android:background="#FFC107"
+                android:paddingTop="50px"
+                android:paddingBottom="50px"
+                android:text="Update Exams and Projects"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#151F55"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/exam1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Mid Exam"
+                android:inputType="number"
+                android:paddingStart="50px" />
+
+            <EditText
+                android:id="@+id/exam2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="End Exam"
+                android:inputType="number"
+                android:paddingStart="50px"/>
+
+            <EditText
+                android:id="@+id/project1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Project 1"
+                android:inputType="number"
+                android:paddingStart="50px"/>
+
+            <EditText
+                android:id="@+id/project2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="100px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Project 2"
+                android:inputType="number"
+                android:paddingStart="50px" />
+
+            <Button
+                android:id="@+id/updateStudentExamScores"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="100px"
+                android:backgroundTint="#FFC107"
+                android:paddingTop="50px"
+                android:paddingBottom="50px"
+                android:text="Update Exam and Project Scores"
+                android:textColor="#151F55"
+                android:textSize="16sp"
+                app:cornerRadius="30px" />
+
+            <Button
+                android:id="@+id/backToPrevious"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="100px"
+                android:backgroundTint="#FFC107"
+                android:paddingLeft="100px"
+                android:paddingTop="50px"
+                android:paddingRight="100px"
+                android:paddingBottom="50px"
+                android:text="Back to Update Page"
+                android:textColor="#151F55"
+                android:textSize="16sp"
+                app:cornerRadius="30px" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFC107"
+                android:paddingBottom="300px" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

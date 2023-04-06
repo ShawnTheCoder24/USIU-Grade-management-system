@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewTermPaperScores">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFC107">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100px"
+                android:background="#151F55"
+                android:paddingTop="50px"
+                android:paddingBottom="50px"
+                android:text="View Term Paper Score"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100px"
+                android:background="#151F55"
+                android:text="Here are the scores:"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/viewPaperScore1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="100px"
+                android:background="@color/white"
+                android:hint="Term Paper 1 Score"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/viewPaperScore2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="100px"
+                android:background="@color/white"
+                android:hint="Term Paper 2 Score"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/viewPaperScore3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="100px"
+                android:background="@color/white"
+                android:hint="Term Paper 3 Score"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/homeReturnButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="400px"
+                android:paddingLeft="100px"
+                android:paddingTop="50px"
+                android:paddingRight="100px"
+                android:paddingBottom="50px"
+                android:text="Return to Previous Page"
+                android:textColor="#FFC107"
+                app:cornerRadius="30px" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#151F55"
+                android:paddingBottom="350px" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LecturerHome">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/updateHead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="200px"
+                android:background="#151F55"
+                android:paddingTop="50px"
+                android:paddingBottom="80px"
+                android:text="@string/welcome_lec"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="200px"
+                android:text="@string/lec_options"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/viewGrades"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="80px"
+                android:paddingStart="70px"
+                android:paddingTop="50px"
+                android:paddingEnd="70px"
+                android:paddingBottom="50px"
+                android:text="@string/see_grade"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                app:cornerRadius="30px" />
+
+            <Button
+                android:id="@+id/recordGrade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="80px"
+                android:backgroundTint="#FFC107"
+                android:paddingStart="50px"
+                android:paddingTop="50px"
+                android:paddingEnd="50px"
+                android:paddingBottom="50px"
+                android:text="@string/record_grades"
+                android:textAlignment="center"
+                android:textColor="#151F55"
+                app:cornerRadius="30px" />
+
+            <Button
+                android:id="@+id/deleteGrades"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="80px"
+                android:paddingStart="50px"
+                android:paddingTop="50px"
+                android:paddingEnd="50px"
+                android:paddingBottom="50px"
+                android:text="@string/delete"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                app:cornerRadius="30px" />
+
+            <Button
+                android:id="@+id/updateRecords"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="100px"
+                android:backgroundTint="#FFC107"
+                android:paddingStart="50px"
+                android:paddingTop="50px"
+                android:paddingEnd="50px"
+                android:paddingBottom="50px"
+                android:text="@string/update"
+                android:textAlignment="center"
+                android:textColor="#151F55"
+                app:cornerRadius="30px" />
+
+            <TextView
+                android:id="@+id/lecFooter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#151F55"
+                android:paddingBottom="250px" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

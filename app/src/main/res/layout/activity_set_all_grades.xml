@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".setAllGrades">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFC107"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pageInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="#151F55"
+                android:paddingTop="50px"
+                android:paddingBottom="80px"
+                android:text="@string/setAllScores"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:text="@string/ScoreSet"
+                android:textAlignment="center"
+                android:textColor="#151F55"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:text="@string/reminder"
+                android:textColor="#151F55"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/studentIdNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Student ID"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/courseIdNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
+                android:ems="10"
+                android:hint="Course ID"
+                android:inputType="textFilter"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/assignmentGrade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="#151F55"
+                android:text="@string/assignment"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/assignmentOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Assignment 1 score"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/assignmentTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Assignment 2 score"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/assignmentThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Assignment 3 score"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/assignmentFour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Assignment 4 score"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/assignmentFive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Assignment 5 score"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/labGrade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="#151F55"
+                android:text="@string/labs"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/labOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Lab 1 Score"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/labTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Lab 2 score"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/labThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Lab 3 score"
+                android:inputType="number"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/labFour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Lab 4 score"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/labFive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Lab 5 score"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/quizGrade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="#151F55"
+                android:text="Quiz Scores"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/quizOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Quiz 1 score"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/quizTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Quiz 2 score"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/quizThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Quiz 3 score"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/quizFour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Quiz 4 score"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/quizFive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Quiz 5 score"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/midExamScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="#151F55"
+                android:text="Mid Examination Score"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/midExamGrade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Mid Exam score"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/endExamScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="#151F55"
+                android:text="End Examination Score"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/endExamGrade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="End Exam score"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/termPaperGrade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="#151F55"
+                android:text="Term Paper Scores"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/termPaperOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Term Paper 1 score"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/termPaperTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Term paper 2 score"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/termPaperThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Term paper 3 score"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/project"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="#151F55"
+                android:text="Project Scores"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/projectOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Project 1 score"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/projectTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Project 2 score"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/comments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="#151F55"
+                android:text="Comments section"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/lecComments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Any comments"
+                android:inputType="textPersonName"
+                android:paddingBottom="400px"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/storeAllData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50px"
+                android:text="Store The Student Score Data"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                android:textSize="20sp"
+                app:cornerRadius="30px" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

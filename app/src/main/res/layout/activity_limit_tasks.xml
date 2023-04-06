@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LimitTasks">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFC107">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/limitPageMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100px"
+                android:background="#151F55"
+                android:paddingTop="50px"
+                android:paddingBottom="80px"
+                android:text="@string/limits"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/pageGuide"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100px"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/assignment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="@string/assignment_limit"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/labs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="@string/labs_limit"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/projects"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="@string/projects_limit"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/termPaper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="@string/termPaper_limit"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/quiz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="@string/quiz_limit"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/midExam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="@string/exam_limit"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/endExam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="@string/endexam_limit"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/setScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#151F55"
+                android:paddingLeft="100px"
+                android:paddingTop="50px"
+                android:paddingRight="100px"
+                android:paddingBottom="50px"
+                android:text="@string/setScores"
+                android:textColor="#FFC107"
+                android:textSize="16sp"
+                app:cornerRadius="50px" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

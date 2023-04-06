@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddCourses">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFC107">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100px"
+                android:background="#151F55"
+                android:paddingLeft="100px"
+                android:paddingTop="50px"
+                android:paddingRight="100px"
+                android:paddingBottom="50px"
+                android:text="Add Courses"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#FFC107"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100px"
+                android:text="Please insert the following details:"
+                android:textAlignment="center"
+                android:textColor="#151F55"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/addCourseID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100px"
+                android:background="@color/white"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
+                android:ems="10"
+                android:hint="Course ID"
+                android:inputType="textFilter" />
+
+            <EditText
+                android:id="@+id/addCourseName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Course Name"
+                android:inputType="textCapWords" />
+
+            <EditText
+                android:id="@+id/addLecID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Lecturer ID"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/addStudentID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Student ID"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/addCourseInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="350px"
+                android:paddingLeft="100px"
+                android:paddingTop="50px"
+                android:paddingRight="100px"
+                android:paddingBottom="50px"
+                android:text="Add course"
+                android:textColor="#FFC107"
+                app:cornerRadius="30px" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="#151F55" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

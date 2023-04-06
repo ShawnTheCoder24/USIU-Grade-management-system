@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SetAssignmentScores">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFC107">
+
+        <LinearLayout
+            android:id="@+id/linearStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pageGuideMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="#151F55"
+                android:paddingTop="50px"
+                android:paddingBottom="80px"
+                android:text="@string/setScores"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                android:textSize="34sp" />
+
+            <EditText
+                android:id="@+id/studentID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Student ID"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/CourseID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Course ID"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

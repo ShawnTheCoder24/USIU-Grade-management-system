@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Admin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#151F55">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="120px"
+                android:background="#FFC107"
+                android:paddingTop="50px"
+                android:paddingBottom="80px"
+                android:text="Create User"
+                android:textAlignment="center"
+                android:textColor="#151F55"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/userID"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginBottom="100px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="ID number"
+                android:inputType="number"
+                android:paddingStart="20px" />
+
+            <EditText
+                android:id="@+id/newUser"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginBottom="100px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textCapWords"
+                android:paddingStart="20px" />
+
+            <EditText
+                android:id="@+id/newPassword"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginBottom="100px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingStart="20px" />
+
+            <EditText
+                android:id="@+id/newRole"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginBottom="100px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Role"
+                android:inputType="textCapWords"
+                android:paddingStart="20px" />
+
+            <EditText
+                android:id="@+id/newEmail"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginBottom="100px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="User email"
+                android:inputType="textEmailAddress"
+                android:paddingStart="20px" />
+
+            <Button
+                android:id="@+id/UserCreation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="200px"
+                android:backgroundTint="#FFC107"
+                android:paddingLeft="100px"
+                android:paddingTop="50px"
+                android:paddingRight="100px"
+                android:paddingBottom="50px"
+                android:text="Create The User"
+                android:textColor="#151F55"
+                android:textSize="16sp"
+                app:cornerRadius="30px" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFC107"
+                android:paddingBottom="250px" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

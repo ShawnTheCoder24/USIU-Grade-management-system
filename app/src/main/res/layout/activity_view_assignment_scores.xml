@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewAssignmentScores">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#151F55">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100px"
+                android:background="#FFC107"
+                android:paddingTop="50px"
+                android:paddingBottom="50px"
+                android:text="View Assignments"
+                android:textAlignment="center"
+                android:textColor="#151F55"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100px"
+                android:background="#FFC107"
+                android:text="Here are the scores:"
+                android:textAlignment="center"
+                android:textColor="#151F55"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/viewAssignmentScore1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="100px"
+                android:background="@color/white"
+                android:hint="Assignment 1 Score"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/viewAssignmentScore2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="100px"
+                android:background="@color/white"
+                android:hint="Assignment 2 Score"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/viewAssignmentScore3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="100px"
+                android:background="@color/white"
+                android:hint="Assignment 3 Score"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/viewAssignmentScore4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="100px"
+                android:background="@color/white"
+                android:hint="Assignment 4 Score"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/viewAssignmentScore5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="100px"
+                android:background="@color/white"
+                android:hint="Assignment 5 Score"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/backButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="100px"
+                android:backgroundTint="#FFC107"
+                android:paddingLeft="100px"
+                android:paddingTop="50px"
+                android:paddingRight="100px"
+                android:paddingBottom="50px"
+                android:text="Return to Previous Page"
+                android:textColor="#151F55"
+                app:cornerRadius="30px" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFC107"
+                android:paddingBottom="200px" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

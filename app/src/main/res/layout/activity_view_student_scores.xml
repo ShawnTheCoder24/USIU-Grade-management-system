@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:filterTouchesWhenObscured="true"
+    android:orientation="vertical"
+    tools:context=".ViewStudentScores">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100px"
+                android:background="#151F55"
+                android:paddingTop="50px"
+                android:paddingBottom="50px"
+                android:text="View Scores"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100px"
+                android:background="#151F55"
+                android:gravity="center"
+                android:text="Please insert the following details: "
+                android:textColor="#FFC107"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/studID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100px"
+                android:background="@android:color/darker_gray"
+                android:ems="10"
+                android:hint="Student ID"
+                android:inputType="number"
+                android:paddingStart="50px" />
+
+            <EditText
+                android:id="@+id/courseCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100px"
+                android:background="@android:color/darker_gray"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
+                android:ems="10"
+                android:hint="Course ID"
+                android:inputType="textFilter"
+                android:paddingStart="50px" />
+
+            <Button
+                android:id="@+id/checkLabs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50px"
+                android:backgroundTint="#FFC107"
+                android:paddingLeft="100px"
+                android:paddingTop="50px"
+                android:paddingRight="100px"
+                android:paddingBottom="50px"
+                android:text="View Lab Scores"
+                android:textColor="#151F55"
+                app:cornerRadius="30px" />
+
+            <Button
+                android:id="@+id/checkQuizzes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50px"
+                android:backgroundTint="#151F55"
+                android:paddingLeft="100px"
+                android:paddingTop="50px"
+                android:paddingRight="100px"
+                android:paddingBottom="50px"
+                android:text="View Quiz Scores"
+                android:textColor="#FFC107"
+                app:cornerRadius="30px" />
+
+            <Button
+                android:id="@+id/checkTermPapers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50px"
+                android:backgroundTint="#FFC107"
+                android:paddingLeft="100px"
+                android:paddingTop="50px"
+                android:paddingRight="100px"
+                android:paddingBottom="50px"
+                android:text="View Term Paper Scores"
+                android:textColor="#151F55"
+                app:cornerRadius="30px" />
+
+            <Button
+                android:id="@+id/checkAssignments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50px"
+                android:backgroundTint="#151F55"
+                android:paddingLeft="100px"
+                android:paddingTop="50px"
+                android:paddingRight="100px"
+                android:paddingBottom="50px"
+                android:text="View Assignment Scores"
+                android:textColor="#FFC107"
+                app:cornerRadius="30px" />
+
+            <Button
+                android:id="@+id/checkExamProject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="100px"
+                android:backgroundTint="#FFC107"
+                android:paddingLeft="100px"
+                android:paddingTop="50px"
+                android:paddingRight="100px"
+                android:paddingBottom="50px"
+                android:text="View Exam and Project Scores"
+                android:textColor="#151F55"
+                app:cornerRadius="30px" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#151F55"
+                android:paddingBottom="200px" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

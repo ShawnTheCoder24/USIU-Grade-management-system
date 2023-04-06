@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    android:orientation="vertical"
+    tools:context=".StudentHome">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/welcomeStudent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="200px"
+                android:background="#151F55"
+                android:paddingTop="50px"
+                android:paddingBottom="80px"
+                android:text="@string/welcome_stud"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="120px"
+                android:background="#151F55"
+                android:text="@string/guidance"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/courseID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="150px"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Course ID"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
+                android:inputType="textFilter"
+                android:paddingStart="30px"
+                android:paddingTop="30px"
+                android:paddingBottom="30px" />
+
+            <Button
+                android:id="@+id/viewGrade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="500px"
+                android:paddingStart="50px"
+                android:paddingLeft="50px"
+                android:paddingTop="50px"
+                android:paddingEnd="50px"
+                android:paddingRight="50px"
+                android:paddingBottom="50px"
+                android:text="@string/view_grades"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                android:textSize="16sp"
+                app:cornerRadius="30px" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#151F55"
+                android:paddingBottom="400px" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
